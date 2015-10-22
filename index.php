@@ -30,7 +30,7 @@ if($req==""){
 }
 
 $req =  $req . '.twig';
-$req = 'test/' . $req;
+
 $template = $twig->loadTemplate($req);
 
 
