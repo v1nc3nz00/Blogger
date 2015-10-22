@@ -7,9 +7,12 @@
 
 {% block maincontent %}
     <h1>Blog</h1>
-    <p class="important">
-        {% for user in users %}
-        <li>{{ user.username|e }}</li>
+    <div class="important">
+        {% for blog in blogposts %}
+            <h2>{{ blog.blogTitle }}</h2> <h4>by {{ blog.blogAuthor }}</h4>
+            <p>{{ blog.blogBody }}</p>
     {% endfor %}
-    </p>
+    </div>
+
+    {#{{ dump(blogposts) }}#}
 {% endblock %}
