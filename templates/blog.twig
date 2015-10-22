@@ -7,7 +7,7 @@
 
 {% block maincontent %}
     <h1>Blog</h1>
-    <div class="important">
+    <div class="blog">
         {% for blog in blogposts %}
             <h2>{{ blog.blogTitle }}</h2> <h4>by {{ blog.blogAuthor }}</h4>
             <p>{{ blog.blogBody }}</p>
