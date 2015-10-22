@@ -1,0 +1,22 @@
+{
+    "name": "vincent/ex2",
+    "description": "Example2",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "vince",
+            "email": "vincent@staff.mekit.it"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "twig/twig": "1.6.5"
+    },
+
+    "autoload" : {
+      "psr-0" : {
+        "" : "src"
+      }
+    }
+
+}

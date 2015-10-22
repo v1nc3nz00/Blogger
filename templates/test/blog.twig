@@ -1,0 +1,15 @@
+{% extends 'test/html.twig' %}
+
+
+{% block pagetitle %}
+    <title>blog</title>
+{% endblock %}
+
+{% block maincontent %}
+    <h1>Blog</h1>
+    <p class="important">
+        {% for user in users %}
+        <li>{{ user.username|e }}</li>
+    {% endfor %}
+    </p>
+{% endblock %}

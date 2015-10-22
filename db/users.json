@@ -1,0 +1,18 @@
+{
+  "vincent":{
+    "username":"vince",
+    "password":"xxx",
+    "fullName": "Vincent"
+  },
+ "admin" :{
+   "username":"admin",
+   "password":"yyy",
+   "fullName": "Admino"
+ },
+  "contatti" :{
+    "username":"contatti",
+    "password":"zzz",
+    "fullName": "Contatti Name"
+  }
+}
+
